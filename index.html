@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+ <!-- -----------------------Profile Section---------------  -->
+    
+    <div class="container">
+      <div class="profile">
+        <div class="profile_container">
+          <div class="profile_profileImg">
+            <img src="./images/profile-img.png" alt="profile" />
+          </div>
+          <div>
+            <h1 class="Profile_name">
+              <span class="profile_name_firstName">Muhammad</span>
+              <span class="profile_name_lastName">Hassan Jawaid</span>
+            </h1>
+            <p class="profile_title">Web Developer</p>
+            <p class="description">
+              I am a dedicated professional with a strong work ethic, capable of
+              excelling both independently andwithin a team. I thrive in
+              high-pressure situations, consistently commit to ongoing learning,
+              and aim tomake a positive impact in any professional setting.
+            </p>
+            <a href="./cv.pdf" download="Resume.pdf" class="downloadBtn"
+              target="_blank">Download</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="group-1">
+        <div class="personal_details">
+          <div>
+            <p class="item_title">
+              <i class="fa-solid fa-phone" style="color: #ff7613"></i>
+              +923452277876
+            </p>
+            <p class="item_title">
+              <i class="fa-solid fa-envelope" style="color: #ff7613"></i>
+              hassanjhr09@gmail.com
+            </p>
+          </div>
+        </div>
+
+
+        <!-- --------------------Education Section--------------- -->
+        <div class="edu">
+          <h3 class="title">Education</h3>
+          <div class="edu_item">
+            <p class="item_preTitle">2024-Onging</p>
+            <h4 class="item_title">MS in Data Science</h4>
+            <p class="item_subtitle">SZABIST</p>
+          </div>
+
+          <div class="edu_item">
+            <p class="item_preTitle">2019-2021</p>
+            <h4 class="item_title">MBA-Marketing</h4>
+            <p class="item_subtitle">Greenwich University, Karach</p>
+          </div>
+
+          <div class="edu_item">
+            <p class="item_preTitle">2014-2018</p>
+            <h4 class="item_title">BBA-Finance</h4>
+            <p class="item_subtitle">Greenwich University, Karach</p>
+          </div>
+        </div>
+
+
+        <!-- ------------------Certification-------------------- -->
+
+        <div class="certification">
+          <h3 class="title">Certification</h3>
+          <div class="certification_item">
+            <p class="item_preTitle">2024-Ongoing</p>
+            <h4 class="item_title">
+              Certified Cloud Applied Generative AI Engineer (GenEng)
+            </h4>
+            <p class="item_subtitle">GIAIC</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ---------------------Experience------------------- -->
+
+      <div class="group2">
+        <div class="exp">
+          <h3 class="title">Experience</h3>
+          <div class="exp_item">
+            <p class="item_preTitle">2021 - Present</p>
+            <h4 class="item_title">RnD Associates</h4>
+            <p class="item_subtitle">Marketing Coordinator</p>
+            <p class="description">
+              Generated innovative marketing ideas and analyzed data to identify
+              target audiences.
+            </p>
+          </div>
+
+          <!-- -------------------Skills---------------------- -->
+
+          <div class="skill main" id="main">
+            <h3 class="title">Skills</h3>
+            <ul class="skill_list description">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Pyhton</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- --------------------Interest---------------------- -->
+
+        <div class="interest">
+          <h3 class="title">Interest</h3>
+          <div class="interest_items">
+            <div class="interest_item">
+              <i class="fa-solid fa-baseball" style="color: #727171"></i
+              ><span>Sports</span>
+            </div>
+
+            <div class="interest_item">
+              <i class="fa-solid fa-book" style="color: #727171"></i
+              ><span>Books</span>
+            </div>
+
+            <div class="interest_item">
+              <i class="fa-solid fa-plane" style="color: #727171"></i
+              ><span>Travel</span>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- --------------Professional Profiles---------------- -->
+        <div class="socials">
+          <h3 class="title">Professional Profiles</h3>
+          <div class="social_items">
+            <a
+              href="https://www.linkedin.com/in/muhammad-hassan-jawaid-580796123"
+              class="social_item" target="_blank"><i class="fa-brands fa-linkedin" style="color: #727171"></i>
+              <span>/hassanjhr</span>
+            </a>
+            <a href="https://github.com/hassanjhr" class="social_item" target="_blank">
+              <i class="fa-brands fa-github" style="color: #727171"></i>
+              <span>/hassanjhr</span>
+            </a>
+            <a href="https://x.com/hassanjhr" class="social_item" target="_blank">
+              <i class="fa-brands fa-square-twitter" style="color: #727171"></i>
+              <span>/hassanjhr</span>
+            </a>
+          </div>
+
+          
+        </div>
+      </div>
+
+
+<!-- -------------------------Hide / Show Skills Buttom-------------------- -->
+      <div>
+        <button onclick="hideShow()" class="hide_showBtn">Show/Hide Skills</button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
